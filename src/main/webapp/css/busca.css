@@ -1,0 +1,131 @@
+html{
+    color:#555;
+}
+
+body{
+    background: #05483b;
+}
+
+header{
+    background: rgba(0,0,0,.25);
+    border-bottom: solid .1rem rgba(0,0,0,.25);
+    color: white;
+    width:100%;
+}
+
+footer{
+    font-size: 1.5rem;
+}
+
+article .container,
+footer .container{
+    padding-left:1rem;
+    padding-right:1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5{
+    margin-top:.5rem;
+    margin-bottom:.5rem;
+}
+
+h1{
+    font-size: 5rem;
+}
+
+h2{
+    font-size: 4rem;
+}
+
+h3{
+    font-size: 3rem;
+}
+
+h4{
+    font-size: 2rem;
+}
+
+h5{
+    font-size: 1.5rem;
+}
+
+.search-wrap{
+    position: relative;
+}
+
+#search-input {
+    background: rgba(255, 255, 255, .25);
+    border:none;
+    border-radius:.2rem;
+    color:white;
+    padding:.5rem 4rem .5rem 1.5rem;
+}
+
+#search-button{
+    background: none;
+    border:none;
+    color: white;
+    position: absolute;
+    right:.5rem;
+    top:.5rem;
+    padding:1.3rem 1.5rem;
+}
+
+
+article{
+    padding-top:1rem;
+}
+
+#filters,
+#results{
+    background: #ffffff;
+    padding: 1rem;
+    -webkit-border-radius:.2rem;
+    -moz-border-radius:.2rem;
+    border-radius:.2rem;
+    -webkit-box-shadow:  0 .5rem .5rem rgba(0,0,0,.25);
+    -moz-box-shadow:  0 .5rem .5rem rgba(0,0,0,.25);
+    box-shadow:  0 .5rem .5rem rgba(0,0,0,.25);
+}
+
+#filters{
+    margin-right:1rem;
+    max-width:30%;
+}
+
+#results{
+}
+
+.profissional{
+	border-bottom: solid .1rem #ddd;
+}
+
+.profissional p a{
+	font-size: 1.5rem;
+	text-decoration: none;
+}
+
+.field-wrap p{
+	font-size: 1.5rem;
+}
+
+@media screen and (max-width: 500px) {
+    header>.container{
+        display: block;
+    }
+
+    article>.container{
+        display: block;
+        position: relative;
+    }
+
+    #filters{
+        max-width:none;
+        width: auto;
+        margin-right:0;
+        margin-bottom:1rem;
+    }
+}

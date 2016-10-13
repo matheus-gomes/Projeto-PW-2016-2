@@ -1,0 +1,45 @@
+<div class="form-wrap">
+    <div class="form-header">
+        Em quais cidades você atende?
+    </div>
+
+    <div class="form-body">
+        <div class="field-wrap">
+            <label for="client-uf">Estado</label>
+            <select id="client-uf">
+                <option value="todos" data-show=".cidade-cliente">Todos os estados</option>
+                <option value="df" data-show=".cidade-cliente[data-uf=df]" data-hide=".cidade-cliente[data-uf!=df]">DF</option>
+                <option value="go" data-show=".cidade-cliente[data-uf=go]" data-hide=".cidade-cliente[data-uf!=go]">GO</option>
+                <option value="rj" data-show=".cidade-cliente[data-uf=rj]" data-hide=".cidade-cliente[data-uf!=rj]">RJ</option>
+                <option value="sp" data-show=".cidade-cliente[data-uf=sp]" data-hide=".cidade-cliente[data-uf!=sp]">SP</option>
+            </select>
+        </div>
+
+        <div class="field-wrap">
+            <label>Selecione as cidades nas quais você atende</label>
+        </div>
+
+        <div class="field-wrap cidade-cliente min-width-50" data-uf="df">
+            <input type="checkbox" id="brasilia"> <label for="brasilia">Brasília</label>
+        </div>
+
+        <div class="field-wrap cidade-cliente min-width-50" data-uf="df">
+            <input type="checkbox" id="sao-sebastiao"> <label for="sao-sebastiao">São Sebastião</label>
+        </div>
+
+        <div class="field-wrap cidade-cliente min-width-50" data-uf="go">
+            <input type="checkbox" id="goiania"> <label for="goiania">Goiânia</label>
+        </div>
+
+        <div class="field-wrap cidade-cliente min-width-50" data-uf="go">
+            <input type="checkbox" id="trindade"> <label for="trindade">Trindade</label>
+        </div>
+
+
+    </div>
+
+    <div class="form-footer text-align-right">
+        <button class="blue-button float-left" data-navigate-page="local-cliente"><i class="ico-arrow-circle-left"></i> Voltar</button>
+        <button class="blue-button" data-navigate-page="resumo">Próximo <i class="ico-arrow-circle-right"></i></button>
+    </div>
+</div>

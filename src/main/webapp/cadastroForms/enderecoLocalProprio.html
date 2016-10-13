@@ -1,0 +1,63 @@
+<div class="form-wrap">
+    <div class="form-header">
+        Endereço de seu local de trabalho
+    </div>
+
+    <div class="form-body">
+        <div class="field-wrap float-left min-width-30">
+            <label for="cep">CEP</label>
+            <input type="text" size="10" id="cep" placeholder="CEP" class="width-100">
+        </div>
+
+        <div class="field-wrap float-left min-width-30">
+            <label for="office-uf">Estado</label>
+            <select id="office-uf" class="width-100">
+                <option value="">Selecione</option>
+                <option value="df">DF</option>
+                <option value="go">GO</option>
+                <option value="rj">RJ</option>
+                <option value="sp">SP</option>
+            </select>
+        </div>
+
+        <div class="field-wrap float-left min-width-40">
+            <label for="office-city">Cidade</label>
+            <select id="office-city" class="width-100">
+                <option value="">Selecione</option>
+                <option data-uf="df" value="1">Brasília</option>
+                <option data-uf="go" value="2">Goiânia</option>
+                <option data-uf="rj" value="3">Rio de Janeiro</option>
+                <option data-uf="sp" value="4">São Paulo</option>
+            </select>
+        </div>
+
+        <div class="field-wrap overflow-auto width-100">
+            <label for="street">Logradouro</label>
+            <input type="text" id="street" placeholder="Nome do logradouro, rua, avenida, etc." class="width-100">
+        </div>
+
+        <div class="field-wrap float-left min-width-30 overflow-auto">
+            <label for="office-naiborhood">Bairro</label>
+            <input type="text" size="10" id="office-naiborhood" placeholder="Bairro" class="width-100">
+        </div>
+
+        <div class="field-wrap float-left min-width-70 overflow-auto">
+            <label for="complement">Complemento</label>
+            <input type="text" id="complement" placeholder="Complemento (edifício, sala, etc)" class="width-100">
+        </div>
+
+        <div class="field-wrap overflow-auto">
+            <label for="open-time">Horário de atendimento</label>
+            <label for="open-time">Aberto de </label><input type="text" size="5" id="open-time" placeholder="00:00">
+            <label for="close-time"> até </label><input type="text" size="5" id="close-time" placeholder="00:00"><label> horas</label>
+            <div class="overflow-auto padding-top-5"></div>
+            <label for="lunch-time">Fechado entre </label><input type="text" size="5" id="lunch-time" placeholder="00:00">
+            <label for="end-lunch-time"> e </label><input type="text" size="5" id="end-lunch-time" placeholder="00:00"><label> horas</label>
+        </div>
+    </div>
+
+    <div class="form-footer text-align-right">
+        <button class="blue-button float-left" data-navigate-page="local-proprio"><i class="ico-arrow-circle-left"></i> Voltar</button>
+        <button class="blue-button" data-navigate-page="local-cliente">Próximo <i class="ico-arrow-circle-right"></i></button>
+    </div>
+</div>

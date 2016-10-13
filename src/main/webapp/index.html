@@ -1,10 +1,105 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Profissa</title>
+	
+	<link rel="shortcut icon" href="img/favicon.ico" />
+    <link rel="stylesheet" href="css/profissaFont/style.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/index.css">
+
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/index.js"></script>
 </head>
 <body>
-	
+<header>
+    <div class="container display-flex padding-5">
+        <div class="logo-wrap">
+            <img src="img/logo.png" alt="Profissa" id="logo">
+        </div>
+        <div class="search-wrap flex-1 padding-5">
+            <input type="text" id="search-input" placeholder="Busque um profissional" class="width-100 height-40 padding-5" data-press-enter="#search-button">
+            <button id="search-button"><i class="ico-search"></i></button>
+        </div>
+        <div class="top-buttons-wrap padding-5">
+            <label for="register" class="display-block margin-bottom-3">Ofereça seus serviços:</label>
+            <button id="register" class="button-link">Cadastre-se</button> ou
+            <button id="open-login" class="button-link">Faça login</button>
+
+            <div class="login-wrap" style="display: none;">
+                <button id="close-login">x</button>
+                <input type="text" id="login-name" class="width-100 display-block margin-top-5" data-press-enter="#password" placeholder="Login">
+                <input type="password" id="password" class="width-100 display-block margin-top-5" data-press-enter="#confirm-login" placeholder="Senha">
+                <button id="confirm-login" class="width-100 margin-top-10">Entrar</button>
+                <div><button class="button-link margin-top-5" id="forgot-password">Esqueci minha senha</button></div>
+            </div>
+        </div>
+
+    </div>
+</header>
+
+<article>
+    <section id="consumer-advertisement">
+        <div class="container">
+            <div class="advertisement-text-wrap">
+                <h1 class="centered-vertically">Mais de <span id="workers-count">0</span> profissionais à sua disposição!</h1>
+            </div>
+        </div>
+    </section>
+
+    <section id="service-categories">
+        <div class="container">
+            <h3>Que tipo de serviço você procura?</h3>
+            <div class="category-buttons-wrap padding-bottom-50">
+                <button class="category-button">Eletricista</button>
+                <button class="category-button">Encanador</button>
+                <button class="category-button">Personal trainer</button>
+                <button class="category-button">Babá</button>
+                <button class="category-button">Prostituta</button>
+                <button class="category-button">Barman</button>
+                <button class="category-button">Matador</button>
+                <button class="category-button">Segurança</button>
+                <button class="category-button">Vereador</button>
+                <button class="category-button">Deputado estadual</button>
+                <button class="category-button">Deputado federal</button>
+                <button class="category-button">Faxineira diarista</button>
+                <button class="category-button">Pedreiro</button>
+                <button class="category-button">Motorista</button>
+                <button class="category-button">Exorcista</button>
+                <button class="category-button">Programador Ms Access Senior</button>
+                <button class="category-button">Sobrinho que faz site</button>
+                <button class="category-button"> e + <span id="categories-count">0</span> outras</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="workers-advertisement">
+        <div class="container">
+            <div class="advertisement-text-wrap">
+                <h2 class="centered-vertically">
+                    Deixe que vejam seu trabalho e faça bons negócios!<br>
+                    <button id="advertisement-register" class="button-link margin-top-20">Cadastre-se</button>
+                </h2>
+            </div>
+        </div>
+    </section>
+</article>
+
+<footer>
+    <div class="container padding-top-20 padding-bottom-30">
+        <div id="footer-logo-wrap" class="margin-bottom-10">
+            <img src="img/logo.png" alt="Profissa" id="footer-logo">
+        </div>
+        <div class="margin-bottom-5"><button id="help" class="button-link">Precisa de ajuda?</button></div>
+        <div class="margin-bottom-5"><button id="terms" class="button-link">Veja os termos de uso</button></div>
+    </div>
+</footer>
+
+
 </body>
 </html>

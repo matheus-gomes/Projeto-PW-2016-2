@@ -1,0 +1,227 @@
+html{
+    color:#555;
+}
+
+header{
+    background: rgba(0,0,0,.25);
+    border-bottom: solid .1rem rgba(0,0,0,.25);
+    position: fixed;
+    width:100%;
+    color: white;
+    z-index: 999;
+}
+
+article section{
+    overflow: auto;
+    padding-top: 4.5rem
+}
+
+footer{
+    font-size: 1.5rem;
+}
+
+article .container,
+footer .container{
+    padding-left:1rem;
+    padding-right:1rem;
+}
+
+h1{
+    font-size: 5rem;
+}
+
+h2{
+    font-size: 4rem;
+}
+
+h3{
+    font-size: 3rem;
+}
+
+h4{
+    font-size: 2rem;
+}
+
+h5{
+    font-size: 1.5rem;
+}
+
+.search-wrap{
+    position: relative;
+}
+
+#search-input {
+    background: rgba(255, 255, 255, .25);
+    border:none;
+    border-radius:.2rem;
+    color:white;
+    padding:.5rem 4rem .5rem 1.5rem;
+}
+
+#search-button{
+    background: none;
+    border:none;
+    color: white;
+    position: absolute;
+    right:.5rem;
+    top:.5rem;
+    padding:1.3rem 1.5rem;
+}
+
+.top-buttons-wrap{
+    font-size:1.2rem;
+    position: relative;
+}
+
+/*.top-buttons-wrap>button,*/
+#confirm-login{
+    background: rgba(255, 255, 255, .3);
+    color:white;
+    border: solid .1rem white;
+    border-radius:.2rem;
+    box-shadow: 0 0 .5rem rgba(0,0,0,.25);
+}
+
+.login-wrap{
+    position: fixed;
+    top:7rem;
+    background: rgba(0,0,0,.25);
+    border: solid .1rem rgba(0,0,0,.25);
+    padding: 1rem 1rem 2rem 1rem;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+.login-wrap input{
+    background: rgba(255,255,255,.25);
+    border:none;
+    color: white;
+    padding:.5rem;
+}
+
+#close-login{
+    float: right;
+    color: white;
+    background: none;
+    border:none;
+    width:2rem;
+    height:2rem;
+    margin: -.5rem -.5rem .5rem .5rem;
+}
+
+#consumer-advertisement{
+    background-image: url("../img/lego.jpg") ;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-position: center center;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+.advertisement-text-wrap {
+    min-height: 50rem;
+    min-height:100vh;
+    position: relative;
+}
+
+.centered-vertically{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-75%);
+    color:#ffffff;
+    text-shadow: 0 0 5rem rgba(0,0,0,1);
+    width:100%;
+    max-width:900px;
+}
+
+#workers-advertisement{
+    min-height: 50rem;
+    background-image: url("../img/handshake.jpg") ;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-position: center center;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+footer,
+#service-categories {
+    color: white;
+    background-image: url("../img/diagonal.png") ;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-position: center center;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+footer{
+    background-color: #021;
+    border-top:solid .1rem #002222;
+}
+
+#service-categories{
+    background-color: #0f7d68;
+    min-height: 50rem;
+    min-height:100vh;
+}
+
+.category-buttons-wrap{
+    overflow: auto;
+    padding-bottom: 5rem;
+    text-align: center;
+}
+
+.category-button{
+    width: 15rem;
+    height:15rem;
+    font-size:1.7rem;
+    font-weight:bold;
+    vertical-align: top;
+    display: inline-block;
+    margin:.75rem;
+    color: #ffffff;
+    border: none;
+    background: #7fffd4;
+    background: rgba(255,255,255,.10);
+    border-radius:50%;
+    padding:1rem;
+    transition: all .5s;
+
+}
+
+.category-button:hover{
+    background: #05483b;
+}
+
+
+#footer-logo{
+    max-height: 3.5rem;
+    margin-left: -.5rem;
+}
+
+
+
+@media screen and (max-width: 500px) {
+    header{
+        position: absolute;
+    }
+
+    header>.container{
+        display: block;
+    }
+
+    .login-wrap{
+        position: relative;
+        top:1rem;
+        left: auto;
+        background: rgba(0,0,0,.75);
+        width: 100%;
+    }
+
+    #consumer-advertisement{
+        padding-top:12rem;
+    }
+
+}

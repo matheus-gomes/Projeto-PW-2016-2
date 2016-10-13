@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Profissa | Cadastro de Profissional</title>
+	
+	<link rel="shortcut icon" href="img/favicon.ico" />
+    <link rel="stylesheet" href="css/profissaFont/style.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/cadastro.css">
+
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/cadastro.js"></script>
+</head>
+<body>
+<header>
+    <div class="container display-flex padding-5">
+        <div class="logo-wrap">
+            <img src="img/logoVerde.png" alt="Profissa" id="logo">
+        </div>
+        <div id="header-title">Cadastro de Profissional</div>
+    </div>
+</header>
+
+<article>
+    <div class="container padding-10 padding-top-30 padding-bottom-30" data-view="cadastro" data-view-index="dados-basicos">
+        <div data-page="dados-basicos" data-load-file="cadastroForms/dadosBasicos.html"></div>
+
+        <div data-page="confirmacao" data-load-file="cadastroForms/confirmacao.html"></div>
+
+        <div data-page="contatos" data-load-file="cadastroForms/contatos.html"></div>
+
+        <div data-page="profissao" data-load-file="cadastroForms/profissao.html"></div>
+
+        <div data-page="local-proprio" data-load-file="cadastroForms/localProprio.html"></div>
+
+        <div data-page="endereco-local-proprio" data-load-file="cadastroForms/enderecoLocalProprio.html"></div>
+
+        <div data-page="local-cliente" data-load-file="cadastroForms/localCliente.html"></div>
+
+        <div data-page="cidades-atendidas" data-load-file="cadastroForms/cidadesAtendidas.html"></div>
+        
+        <div data-page="resumo" data-load-file="cadastroForms/resumo.html"></div>
+    </div>
+</article>
+
+<footer>
+    <img src="img/tablet.png" alt="" id="lego-img">
+    <div class="container">
+        <button class="button-link">Ajuda</button> - <button class="button-link">Termos de uso</button>
+    </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,120 @@
+@font-face {
+  font-family: 'profissa';
+  src:  url('fonts/profissa.eot?gisime');
+  src:  url('fonts/profissa.eot?gisime#iefix') format('embedded-opentype'),
+    url('fonts/profissa.ttf?gisime') format('truetype'),
+    url('fonts/profissa.woff?gisime') format('woff'),
+    url('fonts/profissa.svg?gisime#profissa') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="ico-"], [class*=" ico-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'profissa' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ico-search-minus:before {
+  content: "\e90e";
+}
+.ico-search-plus:before {
+  content: "\e90f";
+}
+.ico-search:before {
+  content: "\e910";
+}
+.ico-download:before {
+  content: "\e911";
+}
+.ico-cloud-download:before {
+  content: "\e912";
+}
+.ico-upload:before {
+  content: "\e913";
+}
+.ico-cloud-upload:before {
+  content: "\e914";
+}
+.ico-image:before {
+  content: "\e915";
+}
+.ico-photo:before {
+  content: "\e915";
+}
+.ico-picture-o:before {
+  content: "\e915";
+}
+.ico-minus-circle:before {
+  content: "\e916";
+}
+.ico-minus-square:before {
+  content: "\e917";
+}
+.ico-minus:before {
+  content: "\e918";
+}
+.ico-plus-square:before {
+  content: "\e919";
+}
+.ico-plus-circle:before {
+  content: "\e91a";
+}
+.ico-plus:before {
+  content: "\e91b";
+}
+.ico-map-marker:before {
+  content: "\e908";
+}
+.ico-whatsapp:before {
+  content: "\e909";
+}
+.ico-mobile:before {
+  content: "\e90a";
+}
+.ico-mobile-phone:before {
+  content: "\e90a";
+}
+.ico-phone:before {
+  content: "\e90b";
+}
+.ico-envelope-o:before {
+  content: "\e90c";
+}
+.ico-envelope:before {
+  content: "\e90d";
+}
+.ico-arrow-circle-down:before {
+  content: "\e900";
+}
+.ico-arrow-circle-up:before {
+  content: "\e901";
+}
+.ico-arrow-circle-right:before {
+  content: "\e902";
+}
+.ico-arrow-circle-left:before {
+  content: "\e903";
+}
+.ico-arrow-right:before {
+  content: "\e904";
+}
+.ico-arrow-left:before {
+  content: "\e905";
+}
+.ico-arrow-down:before {
+  content: "\e906";
+}
+.ico-arrow-up:before {
+  content: "\e907";
+}
+
