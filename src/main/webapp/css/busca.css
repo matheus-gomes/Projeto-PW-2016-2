@@ -112,6 +112,14 @@ article{
 	font-size: 1.5rem;
 }
 
+.evaluation{
+	border-bottom: solid .1rem #ddd;
+}
+
+.evaluation-text{
+	text-align: center;
+}
+
 @media screen and (max-width: 500px) {
     header>.container{
         display: block;
