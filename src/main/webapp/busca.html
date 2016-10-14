@@ -33,20 +33,82 @@
     <div class="container display-flex">
         <div id="filters">
             <h4>Filtros de pesquisa</h4>
+            
+            <h5 class="margin-top-25">Por Local</h5>
+            
+            <div class="field-wrap">
+	            <label for="uf">Estado</label>
+	            <select id="uf" class="width-100">
+	                <option value="todos" data-show=".cidade-cliente">Todos os estados</option>
+	                <option value="df">DF</option>
+	                <option value="go">GO</option>
+	                <option value="rj">RJ</option>
+	                <option value="sp">SP</option>
+	            </select>
+            </div>
+            
+            <div class="field-wrap">
+            	<label for="city">Cidade</label>
+	            <select id="city" class="width-100">
+	                <option value="">Selecione</option>
+	                <option data-uf="df" value="1">Brasí­lia</option>
+	                <option data-uf="go" value="2">Goiânia</option>
+	                <option data-uf="rj" value="3">Rio de Janeiro</option>
+	                <option data-uf="sp" value="4">São Paulo</option>
+	            </select>
+            </div>
+            
+            <h5 class="margin-top-25">Por Profissão</h5>
+            <div class="field-wrap">
+	            <label for="profession">Profissão</label>
+	            <select id="profession">
+	                <option value="0">Eletricista</option>
+	                <option value="1">Encanador</option>
+	                <option value="2">Personal trainer</option>
+	                <option value="3">Babá</option>
+	                <option value="4">Prostituta</option>
+	                <option value="5">Barman</option>
+	                <option value="6">Matador</option>
+	                <option value="7">Segurança</option>
+	                <option value="8">Vereador</option>
+	                <option value="9">Deputado estadual</option>
+	                <option value="10">Deputado federal</option>
+	                <option value="11">Faxineira diarista</option>
+	                <option value="12">Pedreiro</option>
+	                <option value="13">Motorista</option>
+	                <option value="14">Exorcista</option>
+	                <option value="15">Programador Ms Access Senior</option>
+	                <option value="16">Sobrinho que faz site</option>
+	            </select>
+	        </div>
         </div>
         <div id="results" class="flex-1">
             <h4>Resultados da busca</h4>
             
-            <div class="profissional">
-       			<p><a href="perfil.html">José Silva - Eletricista</a><p>
-        		<p>Instalação de chuveiros, troca de lâmpadas e emenda de fio com fita isolante<p>
+            <div id="professionals" class="margin-top-25">
+	            <div class="professional">
+	       			<p><a href="perfil.html">José Silva - Eletricista - Goias</a><p>
+	        		<p>Instalação de chuveiros, troca de lâmpadas e emenda de fio com fita isolante<p>
+	    		</div>
+	    		
+	            <div class="professional">
+	       			<p><a href="perfil.html">Jênyffer - Massagista sensual - Goias</a><p>
+	        		<p>Massagem no órgão genital sem o uso das mãos<p>
+	    		</div>
+	    		
+	            <div class="professional">
+	       			<p><a href="perfil.html">Arlindo Potiguá - Matador - Goias</a><p>
+	        		<p>Você paga e dá o nome que eu mando pro céu<p>
+	    		</div>
     		</div>
         </div>
     </div>
 </article>
 
 <footer>
-
+    <div class="container">
+        <button class="button-link">Ajuda</button> - <button class="button-link">Termos de uso</button>
+    </div>
 </footer>
 
 </body>

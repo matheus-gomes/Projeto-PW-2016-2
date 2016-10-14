@@ -14,8 +14,15 @@ header{
 }
 
 footer{
-    font-size: 1.5rem;
+    position: fixed;
+    bottom:0;
+    width:100%;
+    font-size: 1.2rem;
+    color: #79b;
+    padding:.5rem;
+    text-align: center;
 }
+
 
 article .container,
 footer .container{
@@ -99,11 +106,11 @@ article{
 #results{
 }
 
-.profissional{
+.professional{
 	border-bottom: solid .1rem #ddd;
 }
 
-.profissional p a{
+.professional p a{
 	font-size: 1.5rem;
 	text-decoration: none;
 }
@@ -119,6 +126,8 @@ article{
 .evaluation-text{
 	text-align: center;
 }
+
+
 
 @media screen and (max-width: 500px) {
     header>.container{

@@ -19,6 +19,7 @@ button{
 
 #logo{
     height:5rem;
+    cursor:pointer;
 }
 
 #header-title{

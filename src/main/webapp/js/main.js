@@ -92,3 +92,6 @@ jQuery(document).on('input', 'select', function(e){
         }
     });
 });
+
+
+jQuery(document).on('click', '#logo', function(){window.location.href = '/Projeto-PW/index.html'})
